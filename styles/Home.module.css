@@ -14,12 +14,13 @@
 }
 
 .title {
-    padding: 5%;
+    padding: 2%;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
 .description {
+    padding: 3%;
     font-size: 1.1rem;
 }
 
@@ -32,5 +33,5 @@
     color: #ef7c8e;
     border: none;
     cursor: pointer;
-    margin-top: 2%;
+    margin-top: 2.5%;
 }

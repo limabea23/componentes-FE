@@ -3,7 +3,7 @@ import CardCategoria from "./CardCategoria";
 
 export default function CategoriasPopulares() {
     const categorias = [
-        { nome: "Tradicionais", icone: "🍦" },
+    { nome: "Tradicionais", icone: "🍦" },
     { nome: "Picolés", icone: "🍧" },
     { nome: "Milkshakes", icone: "🥤" },
     { nome: "Açaí", icone: "🍇" },

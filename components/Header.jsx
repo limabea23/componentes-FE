@@ -5,6 +5,7 @@ import styles from "../styles/Header.module.css";
 export default function Header() {
     return (
         <div className={styles.container}>
+            <link rel="icon" href="/onlygelato.png" sizes="128x128" />
             <div className={styles.logo}>
                 <img src="/logo-header.png" alt="gelato di sogno logo" />
             </div>

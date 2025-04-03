@@ -1,8 +1,5 @@
 .categorias {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
+    margin-top: 5%
 }
 
 .categoriasTitulo {
@@ -30,8 +27,8 @@
     padding: 15px;
 }
 
-.icon {
-    width: 70px;
+.icone {
+    width: 20px;
     font-size: 2rem;
     font-weight: bold;
 }

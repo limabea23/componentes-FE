@@ -10,11 +10,11 @@ export default function Header() {
             </div>
 
             <nav className={styles.menu}>
-                <p>Início</p>
-                <p>Gelatos</p>
-                <p>Categorias</p>
-                <p>Chefes</p>
-                <p>Ofertas</p>
+                <p>INÍCIO</p>
+                <p>GELATOS</p>
+                <p>CATEGORIAS</p>
+                <p>CHEFES</p>
+                <p>OFERTAS</p>
             </nav>
 
             <div className={styles.input}>

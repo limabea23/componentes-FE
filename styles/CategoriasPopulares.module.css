@@ -1,8 +1,5 @@
 .categorias {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5%;
+    margin-top: 5%
 }
 
 .categoriasTitulo {
@@ -15,25 +12,24 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 100%;
-    gap: 10px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 150px;
-    height: 80px;
+    width: 9rem;
+    height: 9rem;
     border-radius: 10px;
     background-color: #f0f0f0;
-    padding: 15px;
+    padding: 1px;
+    gap: 10px;
 }
 
-.icon {
-    width: 70px;
-    font-size: 2rem;
-    font-weight: bold;
+.icone {
+    font-size: 1.8rem;
+    height: 20px;
+    padding: 2rem;
 }
 
 .nome {

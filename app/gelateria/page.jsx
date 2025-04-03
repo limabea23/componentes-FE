@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import CategoriasPopulares from "../../components/CategoriasPopulares";
 import Formulario from "../../components/Formulario";
 import Banner from "../../components/Banner";
+import Footer from "../../components/Footer";
 
 export default function Home() {
     return (
@@ -43,7 +44,7 @@ export default function Home() {
         <CategoriasPopulares />
 
         <Formulario />
-        
+        <Footer />
         </div>
     );
 }

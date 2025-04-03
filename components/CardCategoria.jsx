@@ -1,4 +1,4 @@
-import styles from "../styles/Categorias.module.css";
+import styles from "../styles/CategoriasPopulares.module.css";
 
 export default function CardCategoria ( { icone, nome } ) {
     return (

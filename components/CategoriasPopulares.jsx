@@ -1,4 +1,6 @@
-import styles from "../styles/Categorias.module.css";
+"use client";
+
+import styles from "../styles/CategoriasPopulares.module.css";
 import CardCategoria from "./CardCategoria";
 
 export default function CategoriasPopulares() {

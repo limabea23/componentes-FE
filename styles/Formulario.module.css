@@ -31,19 +31,19 @@
     border-radius: 5px 0 0 5px;
 }
 
-.Button {
+.Button  {
     background-color: #f4c9d0;
     border: none;
     cursor: pointer;
     margin-top: 2%;
     border-radius: 0 5px 5px 0;
 }
-.Button button {
+.Button {
     width: 6rem;
     height: 3rem;
     font-weight: bold;
     font-size: 15px;
-    color: #ef7c8e;
+    color: #f194a2;
     border: none;
     cursor: pointer;
     margin-top: 2%;

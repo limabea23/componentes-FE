@@ -13,6 +13,8 @@ export default function Home() {
             <p className={styles.description}>Promoção de inauguração com até 50% de desconto!</p>
             <button className={styles.button}>Ver ofertas</button>
         </div>
+
+        
         </div>
     );
 }

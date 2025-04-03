@@ -6,20 +6,26 @@ export default function Header() {
     return (
         <div className={styles.container}>
             <div className={styles.logo}>
-                <img src="/logo.png" alt="gelato di sogno logo" />
+                <img src="/logo-header.png" alt="gelato di sogno logo" />
             </div>
 
             <nav className={styles.menu}>
-                <li>Início</li>
-                <li>Gelatos</li>
-                <li>Categorias</li>
-                <li>Chefes</li>
-                <li>Ofertas</li>
+                <p>Início</p>
+                <p>Gelatos</p>
+                <p>Categorias</p>
+                <p>Chefes</p>
+                <p>Ofertas</p>
             </nav>
 
             <div className={styles.input}>
                 <input type="text" placeholder="Buscar gelatos..." />
                 <button className={styles.button}>🔍</button>
+            </div>
+
+            <div className={styles.icons}>
+                <p>💝</p>
+                <p>🛒</p>
+                <p>👤</p>
             </div>
         </div>
     );

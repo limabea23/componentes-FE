@@ -12,12 +12,12 @@ export default function Formulario() {
 
     return (
         <div className={styles.container}>
-                <h1 className={styles.formularioTitulo}>Fique por dentro das novidades!</h1>
-                <p className={styles.formdescricao}>Preencha o campo abaixo para receber as ofertas mais recentes e descubra os novos sabores extraordinários.</p>
+            <h1 className={styles.formularioTitulo}>Fique por dentro das novidades!</h1>
+            <p className={styles.formdescricao}>Preencha o campo abaixo para receber as ofertas mais recentes e descubra os novos sabores extraordinários.</p>
                 <div className={styles.formularioInput}>
                     <input type="email" placeholder="Digite seu e-mail" value={email} onChange={handleChange} className={styles.input} /> 
                     <button className={styles.Button}>Enviar</button>
                 </div>
-            </div>
+        </div>
     );
 }

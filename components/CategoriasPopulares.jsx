@@ -5,13 +5,13 @@ import CardCategoria from "./CardCategoria";
 
 export default function CategoriasPopulares() {
     const categorias = [
-    { nome: "Tradicionais", icone: "🍦" },
-    { nome: "Picolés", icone: "🍧" },
-    { nome: "Milkshakes", icone: "🥤" },
-    { nome: "Açaí", icone: "🍇" },
-    { nome: "Vegano", icone: "🌱" },
-    { nome: "Especialidades", icone: "🎂" },
-    { nome: "Novidades", icone: "✨" },
+    { nome: "TRADICIONAIS", icone: "🍦" },
+    { nome: "PICOLÉS", icone: "🍧" },
+    { nome: "MILKSHAKES", icone: "🥤" },
+    { nome: "AÇAÍ", icone: "🍇" },
+    { nome: "VEGANO", icone: "🌱" },
+    { nome: "ESPECIALIDADES", icone: "🎂" },
+    { nome: "NOVIDADES", icone: "✨" },
 ];
 
     return (

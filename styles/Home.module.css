@@ -1,0 +1,36 @@
+.bannerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: 40vh;
+    background-color: #ef7c8e;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.title {
+    padding: 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.1rem;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #ef7c8e;
+    border: none;
+    cursor: pointer;
+    margin-top: 2%;
+}

@@ -1,0 +1,41 @@
+.categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.categoriasTitulo {
+    padding: 5%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.categoriasCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 15px;
+}
+
+.icon {
+    width: 70px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nome {
+    font-size: 15px;
+}

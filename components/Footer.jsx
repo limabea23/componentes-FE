@@ -8,7 +8,7 @@ export default function Footer() {
             <div className={styles.containerfooter}>
                 <img src="/logo-header.png" alt="gelato di sogno logo" />
                 <p className={styles.text}>A Gelato Di Sogno é uma sorveteria de gelatos originais do Brasil, com uma ampla variedade de sabores e estilos. Nossa equipe de chefes está sempre em busca de novos ingredientes e sabores para atender às necessidades dos nossos clientes. Não perca mais tempo e experimente a nossa variedade de gelatos.</p>
-            </div>
+            <div className={styles.footercontainer}>
             <div className={styles.links}>
                 <h3>Links Rápidos</h3>
                 <ul className={styles.list}>
@@ -40,15 +40,19 @@ export default function Footer() {
                     <li><a href="#" className={styles.link}>📧 Email</a></li>
                 </ul>
             </div>
-            
+            </div>
+        </div>
             <div className={styles.line}></div>
                 <div className={styles.linetext}>
-                    <p>© 2023 Gelato Di Sogno</p>
-                    <p>Política de Privacidade</p>
-                    <p>Termos de Uso</p>
-                    <p>Política de Cookies</p>
-                    <p>Design by: Anna Beatriz e Beatriz Lima</p>
+                    <ul className={styles.listtext}>
+                        <li><a href="#" className={styles.link}>Política de Privacidade</a></li>
+                        <li><a href="#" className={styles.link}>Termos de Uso</a></li>
+                        <li><a href="#" className={styles.link}>Política de Cookies</a></li>
+                        <li><a href="#" className={styles.link}>Design by: Anna Beatriz e Beatriz Lima</a></li>
+                    </ul>
                 </div>
+        
+            
         </div>
     );
 }

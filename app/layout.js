@@ -1,6 +1,6 @@
 import "../styles/globals.css";
 			export const metadata = {
-				title: "My First NextJS App",
+				title: "gelato di sogno",
 			};
 			export default function RootLayout({ children }) {
 				return (

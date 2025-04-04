@@ -1,0 +1,97 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    color: #ef7c8e;
+}
+
+.todos {
+    color: #ef7c8e;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 4px 6px rgba(0, 0, 0, 0.11);
+}
+
+.imagem {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sabor {
+    text-align: start;
+}
+
+.chefe {
+    text-align: start;
+    font-size: 15px;
+}
+
+.nota {
+    display: block;
+    width: 90px;
+    margin: 10px;
+}
+
+.categorias {
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #d3d3d3;
+    padding: 2px 4px;
+    display: inline-block;
+}
+
+.preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ef7c8e;
+}
+
+.precoIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icone {
+    font-size: 20px;
+}
+
+.seloNovo {
+    background-color: #fa6077; 
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;
+    display: inline-block;
+    margin-left: 200px;
+    padding: 5px;
+}

@@ -34,10 +34,10 @@ export default function Footer() {
             <div className={styles.redes}>
                 <h3>Redes Sociais</h3>
                 <ul className={styles.list}>
-                    <li><a href="#" className={styles.link}>📸 Instagram</a></li>
-                    <li><a href="#" className={styles.link}>🎵 TikTok</a></li>
-                    <li><a href="#" className={styles.link}>🐦 Twitter</a></li>
-                    <li><a href="#" className={styles.link}>📧 Email</a></li>
+                    <li><a href="#" className={styles.link}>Instagram</a></li>
+                    <li><a href="#" className={styles.link}>TikTok</a></li>
+                    <li><a href="#" className={styles.link}>Twitter</a></li>
+                    <li><a href="#" className={styles.link}>Email</a></li>
                 </ul>
             </div>
             </div>

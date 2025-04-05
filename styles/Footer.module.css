@@ -4,20 +4,20 @@
     background-color:#F6F3F0;
 }
 
+.containerfooter {
+    display: flex;
+    align-items: center;
+}
+
 .containerfooter img {
     width: 20%;
     height: 25%;
     margin: 10px;
-}
-
-.footercontainer {
-    display: flex;
-    padding: 10px 3%;
-    align-items: flex-start;
-    justify-content: space-between;
+    padding: 10px;
 }
 
 .text {
+    display: flex;
     padding: 2%;
     font-size: 10px;
     text-align:justify;
@@ -26,11 +26,15 @@
     font-weight: 400;
 }
 
-.links, .categoriast, .redes {
-    max-width: 250px;
+.footercontainer {
+    display: flex;
+    padding: 10px 3%;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 60%;
 }
 
-.links h3, .categoriast h3, .redes h3 {
+.footercontainer h3 {
     color: #F194A2;
     font-size: 16px;
     font-weight: bold;

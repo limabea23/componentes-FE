@@ -6,8 +6,8 @@
 
 .containerfooter {
     display: flex;
-    align-items: center;
 }
+
 
 .containerfooter img {
     width: 20%;

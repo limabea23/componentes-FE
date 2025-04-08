@@ -3,12 +3,13 @@
 }
 
 .categoriasTitulo {
-    padding: 5%;
-    font-size: 1.5rem;
+    margin: 2%;
+    color:  #ef7c8e;;
     font-weight: bold;
 }
 
 .categoriasCards {
+    padding: 2%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
